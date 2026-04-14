@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/test.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+</head>
+<body>
+<nav class="navbar navbar-expand-lg ">
+  <div class="container">
+    <a class="navbar-brand" href="https://github.com/">
+        <i class=" fa-brands fa-github  "></i>
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#Main" aria-controls="Main" aria-expanded="false" aria-label="Toggle navigation">
+      <i class="fa-solid fa-bars text-light "></i>
+    </button>
+    <div class="collapse navbar-collapse" id="Main">
+      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link  p-lg-3 " aria-current="page" href="#about-me">About Me</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link p-2 p-lg-3 " href="#projects">Projects</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link p-2  p-lg-3 " href="#">Summary</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link p-2  p-lg-3 " href="#">Skills</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link p-2  p-lg-3 " href="#">Education</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link p-2  p-lg-3 " href="#">linkes</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<div id="about-me" class="about-me">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6">
+                <div class="box ">
+                  <img class="img-fluid rounded-circle" src="photo_2025-01-17_18-38-59.jpg" alt="">
+                </div>
+            </div>
+            <div class="col-lg-6 text-center pt-5 ps-5 col2 ">
+                <h3 class="mb-4">About Me</h3>
+                <p class="lh-lg">My Name Is Ahmed Rady Rady  My Age 22 I Graduated From  Faculty of
+                    Computer And informayion Minia University I'm a Software Engineer 
+               my jop is designing Wep by Using .Net  Lorem ipsum dolor sit am
+               et, consectetur adipisicing elit. Obcaecati verit
+               atis amet blanditiis error. Iure quo, saepe tempore 
+               voluptate distinctio vero dicta aliquid ratione archite
+               cto expedita? Illum dolore eligendi culpa corporis. </p>
+            </div>
+
+        </div>
+    </div>
+</div>
+<div  id="projects" class="projects pt-5 pb-5 ">
+  <div class="container ">
+  <h4 class="mb-5">Projects </h4>
+  <h5 class="mb-4 ">1- Pharmacy Management System / Desktop Application</h5>
+     <pre>
+       A desktop application designed to manage pharmacy operations
+       using C#, SQL Server, and Entity Framework Core.
+       The system includes features for 
+       drug registration, customer management, and smart searching using LINQ, async programming,
+       and fuzzy search techniques to handle misspellings and improve search accuracy.
+     </pre>
+     <ul>
+      <li>Drug & Customer Management</li>
+      <li>Fuzzy Search for intelligent name lookup</li>
+      <li>LINQ & Async operations for better performance</li>
+      <li>Client & Server Side Validation</li>
+     </ul>
+     </div>
+</div>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/all.min.js"></script>
+</body>
+</html>
