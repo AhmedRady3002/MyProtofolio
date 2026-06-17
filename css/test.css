@@ -49,3 +49,13 @@ transition:0.3s;
 .project-card:hover{
 transform:translateY(-10px);
 }
+@media (max-width: 576px) {
+    #contact .btn {
+        width: 100%;
+        justify-content: center;
+    }
+
+    #contact .d-flex {
+        flex-direction: column;
+    }
+}
